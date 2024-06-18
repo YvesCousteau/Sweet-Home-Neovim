@@ -135,5 +135,10 @@ return {
   --       'nvim-tree/nvim-web-devicons',     -- optional
   --   }
   -- }
+  {
+    'prettier/vim-prettier',
+    run = 'yarn install', -- or 'npm install'
+    ft = { 'javascript', 'typescript', 'javascriptreact', 'typescriptreact', 'json', 'css', 'scss', 'html', 'yaml', 'markdown', 'mdx' }
+  },
 
 }
